@@ -1,0 +1,17 @@
+{
+    "name": "diconti/api-manager",
+    "description": "Gerenciador de APIs",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DiConti",
+            "email": "eliasdiconti@gmail.com"
+        }
+    ],
+    "require": {}
+}
