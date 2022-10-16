@@ -3,6 +3,7 @@
 namespace Src;
 
 interface IController {
+    const MTNIL    = 10000;
     const MTGET    = 10001;
     const MTPOST   = 10002;
     const MTPUT    = 10003;
