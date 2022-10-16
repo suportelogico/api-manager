@@ -1,6 +1,6 @@
 <?php
 
-namespace Src;
+namespace SuporteLogico\ApiManager;
 
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     http_response_code(200);
@@ -26,7 +26,7 @@ if (empty($token))
 
 //include_once('IController.php');  
 
-use Src\IController;
+use SuporteLogico\ApiManager\IController;
 
 class Controller implements IController  {
     private int $method = IController::MTGET;
@@ -131,6 +131,7 @@ class Controller implements IController  {
                 $result = '';
                 break;
         }
+        return $result;
     }
 
 }

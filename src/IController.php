@@ -1,6 +1,6 @@
 <?php
 
-namespace Src;
+namespace SuporteLogico\ApiManager;
 
 interface IController {
     const MTNIL    = 10000;

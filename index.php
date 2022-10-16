@@ -2,11 +2,13 @@
 
 require 'vendor/autoload.php';
 
-use Src\Controller;
+use SuporteLogico\ApiManager\Controller;
 
-echo "GERENCIADOR DE APIs \n";
+//echo "GERENCIADOR DE APIs \n";
 
 $ctrl = new Controller();
 
 echo $ctrl->getMethod();
+
+
 
