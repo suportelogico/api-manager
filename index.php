@@ -2,13 +2,15 @@
 
 require 'vendor/autoload.php';
 
-use SuporteLogico\ApiManager\Controller;
-
-//echo "GERENCIADOR DE APIs \n";
-
-$ctrl = new Controller();
-
-echo $ctrl->getMethod();
+use SuporteLogico\ApiManager\ControllerTester;
 
 
+$ctrl = new ControllerTester();
+
+
+echo $ctrl->create();
+
+echo " \n";
+
+//print_r( $ctrl->getServerheader() );
 

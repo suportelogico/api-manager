@@ -3,11 +3,9 @@
 namespace SuporteLogico\ApiManager;
 
 interface IController {
-    const MTNIL    = 10000;
-    const MTGET    = 10001;
-    const MTPOST   = 10002;
-    const MTPUT    = 10003;
-    const MTPATCH  = 10003;
-    const MTDELETE = 10004;
-    const MTOPTIONS= 10005; 
+    const CT_APPLICATION_JSON         = 10000; //application/json
+    const CT_APPLICATION_OCTET_STREAM = 10001; //application/octet/stream
+    const CT_TEXT_HTML                = 10002; //text/html
+    const CT_TEXT_PLAIN               = 10003; //text/plain
+
 }
